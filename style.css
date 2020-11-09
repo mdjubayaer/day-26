@@ -1,0 +1,115 @@
+img{
+    max-width: 100%;
+}
+.hader{
+    background-color: deepskyblue;
+}
+.hader img{
+    width: 160px;
+    height: auto;
+}
+.hader ul{
+    margin-bottom: 0;
+}
+.hader ul li{
+    display: inline-block;
+}
+.hader ul li a{
+    display: block;
+    padding: 0 20px;
+    color: #ddd;
+    font-size: 20px;
+    border-right: 1px solid #dddd;
+    line-height: 55px;
+    transition: .4s;
+    margin-left: -4px;
+    text-decoration: none;
+}
+.hader ul li a:hover{
+    background-color: rgb(45, 15, 179);
+}
+
+  /*banar*/
+
+.banar{
+    text-align: center;
+    background-image: url(./Photo/13081-01-gradient-designs-powerpoint-backgrounds-16x9-1.jpg);
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+.banar h1{
+    color: #ddd;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    display: inline-block;   
+}
+
+   /*About us*/
+
+.About{
+
+    text-align: center;
+    
+}
+.inabout{
+    background-color: rgb(243, 243, 243);
+    padding: 20px 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.inabout h2{
+    font-weight: bold;
+}
+.inabout p{
+    font-size:18px;
+    color: black;
+}
+
+   /*sirvis*/
+
+.servis-item{
+    text-align: center;
+}
+
+.servis-item .card .fab{
+    font-size: 50px;
+    background-color: rgba(69, 124, 243, 0.747);
+}
+
+   /*continar*/
+
+.notis-item{}
+.notis-item h2{
+    text-align: center;
+}
+.notis-item ul{
+   
+}
+.notis-item ul li{
+    padding: 20px 25px;
+    font-size: 20px;
+    list-style: none;
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    transition: .4s;
+}
+.notis-item ul li:hover{
+    background-color: rgb(78, 136, 190);
+}
+
+
+.last-foter{
+    background-color: cadetblue;
+}
+.last-foter p{}
+.last-foter .fontss .fab{
+    font-size: 25px;
+    margin-top: 10px;
+}
